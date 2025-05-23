@@ -1,21 +1,22 @@
 import './App.css';
+
 import Navbar from './component/Navbar/Navbar';
-import Home from './view/Home/Home';
+import Login from './view/login.jsx';
+import SignUp from './view/signUp.jsx';
+import Products from './view/ProductPage.jsx';
 import About from './view/About/About';
-import Cart from './view/Cart/Cart';
-import Login from './view/Login/login';
-import SignUp from './view/Sign-up/signUp';
+import Feedback from './view/FeedbackPage.jsx';
 
 
 function App() {
   return (
     <>
     <Navbar/>
-    <Home/>
-    <About/>
-    <Cart/>
     <Login/>
     <SignUp/>
+    <Products/>
+    <About/>
+    <Feedback/>
     </>
   );
 }
