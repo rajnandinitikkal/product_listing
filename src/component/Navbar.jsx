@@ -49,12 +49,12 @@ function Navbar() {
               <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
             </svg>
           </button>
-          
+
           <NavLink to="/" className="nav-item">
             Login
           </NavLink>
           <NavLink to="/products" className="nav-item">
-            Products
+            All Products
           </NavLink>
           <NavLink to="/about" className="nav-item">
             About
